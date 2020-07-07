@@ -39,6 +39,8 @@ function EOCDR(options = {}) {
   return buffer;
 }
 
+if (!Node.fs.existsSync('tests')) Node.fs.mkdirSync('tests');
+
 [
   [
     'PURE_E_OK',
