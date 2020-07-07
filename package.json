@@ -10,6 +10,7 @@
     "make-errors.js",
     "make-signatures.js",
     "make-tests.js",
+    "pure",
     "pure.h",
     "pure_constants.h",
     "pure_errors.h",
